@@ -22,3 +22,4 @@
 
 * [LeetCode](problems/leetcode/README.md)
   * [1. Two Sum](problems/leetcode/1.-two-sum.md)
+  * [3. Longest Substring Without Repeating Characters](problems/leetcode/3.-longest-substring-without-repeating-characters.md)
