@@ -23,3 +23,6 @@
 * [LeetCode](problems/leetcode/README.md)
   * [1. Two Sum](problems/leetcode/1.-two-sum.md)
   * [3. Longest Substring Without Repeating Characters](problems/leetcode/3.-longest-substring-without-repeating-characters.md)
+  * [5. Longest Palindromic Substring](problems/leetcode/5.-longest-palindromic-substring.md)
+  * [11. Container With Most Water](problems/leetcode/11.-container-with-most-water.md)
+  * [15. 3 Sum](problems/leetcode/15.-3-sum.md)
