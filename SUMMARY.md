@@ -29,3 +29,4 @@
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)
   * [238. Product of Array Except Self](problems/leetcode/238.-product-of-array-except-self.md)
+  * [242. Valid Anagram](problems/leetcode/242.-valid-anagram.md)
