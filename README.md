@@ -11,7 +11,6 @@ Code at [https://github.com/MonicaG/algorithms](https://github.com/MonicaG/algor
 
 Find me around the web at:
 
-* Twitter: [@mgranbois](https://twitter.com/mgranbois)
-* GitHub: [MonicaG](https://github.com/MonicaG)
 * Blog: [https://monicagranbois.com/](https://monicagranbois.com)
-
+* GitHub: [https://github.com/MonicaG](https://github.com/MonicaG)
+* Twitter: [@mgranbois](https://twitter.com/mgranbois)
