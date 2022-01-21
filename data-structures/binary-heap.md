@@ -24,7 +24,7 @@ The value of each node is less than all of its descendants
 
 Example of incomplete heap (the 36 does not have a left child)
 
-![Incomplete Tree](../.gitbook/assets/incomplete\_heap.svg)
+![Incomplete Heap](../.gitbook/assets/incomplete\_heap.svg)
 
 ## Heap properties
 
