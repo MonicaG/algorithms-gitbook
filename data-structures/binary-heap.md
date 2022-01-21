@@ -22,11 +22,9 @@ The value of each node is less than all of its descendants
 2. The tree must be complete
    1. It must not have any empty node positions. Although the bottom row can have empty positions. But there cannot be any nodes to the right of those empty nodes.
 
-Example of incomplete tree (the 36 does not have a left child)
+Example of incomplete heap (the 36 does not have a left child)
 
-{% file src="../.gitbook/assets/incomplete_heap.svg" %}
-Example of an incomplete heap
-{% endfile %}
+![Incomplete Tree](../.gitbook/assets/incomplete\_heap.svg)
 
 ## Heap properties
 
