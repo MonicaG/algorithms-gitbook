@@ -3,14 +3,14 @@
 * Big O deals with classification of algorithms.
   * It does not help determine whether one algorithm is faster than another in a given classification.
   * Because it deals with classification, constants and non-determinate terms are dropped.
-    * Example: an algorithm of O(n2 + n) is considered O(n2). Because, the growth rate is determine by the n2.
+    * Example: an algorithm of O(n^2 + n) is considered O(n^2). Because, the growth rate is determine by the n^2.
     * Example: an algorithm of O(2n) becomes O(n). Because the growth is determined by n, not the constant 2.
 * Big O categories, from fastest growth rate (bad) to slowest growth rate(good):
   * O(n!)
     * ex: Listing all permutations of an array
-  * O(2n)
+  * O(2^n)
     * ex: Recursive Fibonacci
-  * O(n2)
+  * O(n^2)
     * ex: Bubble Sort, Insertion Sort
   * O(n log(n))
     * ex: Merge Sort
@@ -35,7 +35,7 @@ def print_arrays(arr1: [int], arr2: [int]):
 ```
 
 * The runtime of the above would be O(m + n), where m is the size of arr1 and n is the size of arr2. But this can be simplified to just O(n) if we consider n to be the total number of elements in both m and n.
-* Generally, two nested loops are O(n2)
+* Generally, two nested loops are O(n^2)
 
 ```python
 def multiply_items(arr:[int]):
@@ -47,8 +47,8 @@ def multiply_items(arr:[int]):
 multiply_items([1, 3, 5])
 ```
 
-* The runtime of the above would be O(n2).
-* However, not all nested loops have a runtime of O(n2), as in the examples below:
+* The runtime of the above would be O(n^2).
+* However, not all nested loops have a runtime of O(n^2), as in the examples below:
 * Example1: (from [A Common-Sense Guide to Data Structures and Algorithms, Second Edition](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) )
 
 ```python

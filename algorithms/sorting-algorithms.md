@@ -2,7 +2,7 @@
 
 Note: videos are not mine. They are just resources I found helpful.
 
-## O(N2)
+## O(N^2)
 
 ### Bubble Sort
 

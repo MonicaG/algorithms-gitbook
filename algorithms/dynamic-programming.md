@@ -4,7 +4,7 @@ A process for optimizing recursive problems that have overlapping subproblems.
 
 Generally accomplished with either memoization or 'going bottom up'.
 
-## Memoization
+## Memoization&#x20;
 
 Memoization is reducing the recursive calls by storing the result of a function call. That result is returned rather than recursing down the branches.
 
@@ -23,7 +23,7 @@ Here, the fib(n) function is called twice in the body of the function. This mean
 
 [![Fibonacci call tree 5](https://upload.wikimedia.org/wikipedia/commons/1/1a/Fibonacci\_call\_tree\_5.gif)](https://commons.wikimedia.org/wiki/File:Fibonacci\_call\_tree\_5.gif)
 
-This function is O(2n), as the number of calls doubles for each level of the tree. This is exponential growth!
+This function is O(2^N) as the number of calls doubles for each level of the tree. This is exponential growth!
 
 A solution is to use memoization to store the values as they are computed. This way the values can be reused instead of recalculated. This eliminates many recursive calls.
 
