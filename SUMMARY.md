@@ -32,6 +32,7 @@
   * [53. Maximum Subarray](problems/leetcode/53.-maximum-subarray.md)
   * [56. Merge Intervals](problems/leetcode/56.-merge-intervals.md)
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
+  * [206. Reverse Linked List](problems/leetcode/206.-reverse-linked-list.md)
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)
   * [238. Product of Array Except Self](problems/leetcode/238.-product-of-array-except-self.md)
   * [242. Valid Anagram](problems/leetcode/242.-valid-anagram.md)
