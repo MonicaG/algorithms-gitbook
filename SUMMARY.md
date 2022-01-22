@@ -29,6 +29,7 @@
   * [15. 3 Sum](problems/leetcode/15.-3-sum.md)
   * [20. Valid Parentheses](problems/leetcode/20.-valid-parentheses.md)
   * [53. Maximum Subarray](problems/leetcode/53.-maximum-subarray.md)
+  * [56. Merge Intervals](problems/leetcode/56.-merge-intervals.md)
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)
   * [238. Product of Array Except Self](problems/leetcode/238.-product-of-array-except-self.md)
