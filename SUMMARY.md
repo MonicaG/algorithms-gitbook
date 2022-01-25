@@ -18,6 +18,7 @@
 ## Data Structures
 
 * [Binary Heap](data-structures/binary-heap.md)
+* [Linked List](data-structures/linked-list.md)
 * [Trees](data-structures/trees.md)
 
 ## Problems
@@ -34,6 +35,7 @@
   * [53. Maximum Subarray](problems/leetcode/53.-maximum-subarray.md)
   * [56. Merge Intervals](problems/leetcode/56.-merge-intervals.md)
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
+  * [141. Linked List Cycle](problems/leetcode/141.-linked-list-cycle.md)
   * [152. Maximum Product Subarray](problems/leetcode/152.-maximum-product-subarray.md)
   * [206. Reverse Linked List](problems/leetcode/206.-reverse-linked-list.md)
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)
