@@ -8,6 +8,7 @@
 
 ## Algorithms
 
+* [Binary Search](algorithms/binary-search.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Kadane's Algorithm](algorithms/kadanes-algorithm.md)
 * [Recursion](algorithms/recursion.md)
@@ -28,6 +29,7 @@
   * [11. Container With Most Water](problems/leetcode/11.-container-with-most-water.md)
   * [15. 3 Sum](problems/leetcode/15.-3-sum.md)
   * [20. Valid Parentheses](problems/leetcode/20.-valid-parentheses.md)
+  * [33. Search in Rotated Sorted Array](problems/leetcode/33.-search-in-rotated-sorted-array.md)
   * [49. Group Anagrams](problems/leetcode/49.-group-anagrams.md)
   * [53. Maximum Subarray](problems/leetcode/53.-maximum-subarray.md)
   * [56. Merge Intervals](problems/leetcode/56.-merge-intervals.md)
