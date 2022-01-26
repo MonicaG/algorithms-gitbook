@@ -37,6 +37,7 @@
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
   * [141. Linked List Cycle](problems/leetcode/141.-linked-list-cycle.md)
   * [152. Maximum Product Subarray](problems/leetcode/152.-maximum-product-subarray.md)
+  * [153. Find Minimum in Rotated Sorted Array](problems/leetcode/153.-find-minimum-in-rotated-sorted-array.md)
   * [206. Reverse Linked List](problems/leetcode/206.-reverse-linked-list.md)
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)
   * [238. Product of Array Except Self](problems/leetcode/238.-product-of-array-except-self.md)
