@@ -42,3 +42,4 @@
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)
   * [238. Product of Array Except Self](problems/leetcode/238.-product-of-array-except-self.md)
   * [242. Valid Anagram](problems/leetcode/242.-valid-anagram.md)
+  * [424. Longest Repeating Character Replacement](problems/leetcode/424.-longest-repeating-character-replacement.md)
