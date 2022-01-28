@@ -13,7 +13,7 @@
 * [Kadane's Algorithm](algorithms/kadanes-algorithm.md)
 * [Recursion](algorithms/recursion.md)
 * [Sorting Algorithms](algorithms/sorting-algorithms.md)
-* [Strings and Arrays](algorithms/strings-and-arrays.md)
+* [Sliding Window](algorithms/sliding-window.md)
 
 ## Data Structures
 
@@ -34,6 +34,7 @@
   * [49. Group Anagrams](problems/leetcode/49.-group-anagrams.md)
   * [53. Maximum Subarray](problems/leetcode/53.-maximum-subarray.md)
   * [56. Merge Intervals](problems/leetcode/56.-merge-intervals.md)
+  * [76. Minimum Window Substring](problems/leetcode/76.-minimum-window-substring.md)
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
   * [141. Linked List Cycle](problems/leetcode/141.-linked-list-cycle.md)
   * [152. Maximum Product Subarray](problems/leetcode/152.-maximum-product-subarray.md)
