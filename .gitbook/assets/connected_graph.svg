@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="69.286407mm"
+   height="35.146198mm"
+   viewBox="0 0 69.286408 35.146198"
+   version="1.1"
+   id="svg1125"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="connected_graph.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1127"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.3833223"
+     inkscape:cx="135.54325"
+     inkscape:cy="57.831787"
+     inkscape:window-width="1440"
+     inkscape:window-height="668"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2881"
+       originx="-108.17144"
+       originy="-119.29575" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1122" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-108.17144,-119.29575)">
+    <circle
+       style="fill:#d5fcfc;fill-opacity:0.85044;stroke:#000000;stroke-width:0.79375"
+       id="path848"
+       cx="116.50581"
+       cy="127.63013"
+       r="7.9375" />
+    <circle
+       style="fill:#d5fcfc;fill-opacity:0.85044;stroke:#000000;stroke-width:0.79375"
+       id="path848-3"
+       cx="143.16632"
+       cy="128.4416"
+       r="7.9375" />
+    <circle
+       style="fill:#d5fcfc;fill-opacity:0.85044;stroke:#000000;stroke-width:0.79375"
+       id="path848-8"
+       cx="128.11578"
+       cy="146.10757"
+       r="7.9375" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;line-height:1.35;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="109.47303"
+       y="129.79405"
+       id="text2050"><tspan
+         sodipodi:role="line"
+         id="tspan2048"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="109.47303"
+         y="129.79405">Alice</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;line-height:1.35;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="122.43169"
+       y="147.44432"
+       id="text5826"><tspan
+         sodipodi:role="line"
+         id="tspan5824"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="122.43169"
+         y="147.44432">Eve</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 124.44331,127.63012 h 10.58333"
+       id="path6670" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.789135;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 120.51982,134.90972 3.77253,4.23571"
+       id="path6738" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.707033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 140.34559,135.54975 -5.48148,6.07981"
+       id="path6740" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;line-height:1.35;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="137.52069"
+       y="130.06128"
+       id="text2183"><tspan
+         sodipodi:role="line"
+         id="tspan2181"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="137.52069"
+         y="130.06128">Bob</tspan></text>
+    <circle
+       style="fill:#d5fcfc;fill-opacity:0.85044;stroke:#000000;stroke-width:0.79375"
+       id="path848-0"
+       cx="169.12347"
+       cy="128.68074"
+       r="7.9375" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;line-height:1.35;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="162.88644"
+       y="130.68312"
+       id="text4402"><tspan
+         sodipodi:role="line"
+         id="tspan4400"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.35px;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="162.88644"
+         y="130.68312">Fred</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 150.8125,127 h 10.58333"
+       id="path976" />
+  </g>
+</svg>

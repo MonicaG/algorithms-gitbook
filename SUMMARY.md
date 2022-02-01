@@ -9,6 +9,8 @@
 ## Algorithms
 
 * [Binary Search](algorithms/binary-search.md)
+* [Breadth First Search (BFS)](algorithms/breadth-first-search-bfs.md)
+* [Depth First Search (DFS)](algorithms/depth-first-search-dfs.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Kadane's Algorithm](algorithms/kadanes-algorithm.md)
 * [Recursion](algorithms/recursion.md)
@@ -18,6 +20,7 @@
 ## Data Structures
 
 * [Binary Heap](data-structures/binary-heap.md)
+* [Graph](data-structures/graph.md)
 * [Linked List](data-structures/linked-list.md)
 * [Trees](data-structures/trees.md)
 
@@ -38,6 +41,7 @@
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
   * [141. Linked List Cycle](problems/leetcode/141.-linked-list-cycle.md)
   * [152. Maximum Product Subarray](problems/leetcode/152.-maximum-product-subarray.md)
+  * [200. Number of Islands](problems/leetcode/200.-number-of-islands.md)
   * [153. Find Minimum in Rotated Sorted Array](problems/leetcode/153.-find-minimum-in-rotated-sorted-array.md)
   * [206. Reverse Linked List](problems/leetcode/206.-reverse-linked-list.md)
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)

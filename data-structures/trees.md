@@ -1,10 +1,27 @@
 # Trees
 
+## Properties of a Tree
+
+* A tree is a node based data structure.&#x20;
+* Each node can have links to multiple other nodes&#x20;
+  * Compare this to a singly [linked list](linked-list.md) which can only link to the next node or a double linked list which can only link to the previous and next nodes.
+* All the nodes in a tree must be connected
+* There cannot be any cycles in a tree (i.e. two nodes cannot link to the same child node)
+* A tree is balanced when the following 3 conditions are met:
+  * The left and right subtrees heights differ by at most 1
+  * The left subtree is balanced
+  * The right subtree is balanced
+* A tree is perfectly balanced when the left and right subtrees of any node are the same height.
+
+![Example of a tree. This is NOT a binary tree as the 7 node has three child nodes. This is an imbalanced tree. Attribution: Paddy3118, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/5/5f/Tree\_\(computer\_science\).svg)
+
+![Example of a balanced binary tree. Attribution: User:Mikm, Public domain, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/0/06/AVLtreef.svg)
+
 ## Binary Tree
 
 A binary tree is a tree where each node can have zero, one or two children.
 
-[![Normal Binary Tree.png](https://upload.wikimedia.org/wikipedia/commons/6/6a/Normal\_Binary\_Tree.png)](https://commons.wikimedia.org/wiki/File:Normal\_Binary\_Tree.png#/media/File:Normal\_Binary\_Tree.png)
+![Unbalanced and not sorted binary tree. Attribution: Radke7CB, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/5/5e/Binary\_tree\_v2.svg)
 
 ## Binary Search Trees
 
