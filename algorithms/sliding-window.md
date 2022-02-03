@@ -50,11 +50,38 @@ Example:
 
 ### Expand around the center
 
-Used for palindromes. The concept is the palindrome has a center point and you expand left and right pointers out from the center point. At each movement you check the values of left and right positions equal each other or not. This is similar to the sliding window concept above.
+This technique is used for finding palindromes. A way to visualize a palindrome is as a mirror image of itself based on a center point. For example: the string `aba` has a center point `b` and the letters are mirrored around that center point. So, we could set a left and right pointer to the letter `b`. Then we would increment the right pointer, decrement the left pointer compare the letters and so on.&#x20;
 
-Example:
+If there is an even number of letters in the palindrome, then the center point is the two center letters. Example: `abba` the center would be `bb`. In this case the left pointer would be the first `b` and the right pointer would be the second `b`. Other than that the logic is the same.
 
-* [Longest Palindromic Substring](../problems/leetcode/5.-longest-palindromic-substring.md)
+To find an anagram within a string, we need to loop over the string providing the index for the left and right pointers. We need to perform the expand twice, once for the odd size case and once for the even sized case.
+
+#### Code
+
+Template for expand around the center problems:
+
+```python
+def expand_around_center(self, s: str, left: int, right: int):
+    while left >= 0 and right < len(s) and s[left] == s[right]:
+        left -= 1
+        right += 1
+               
+def driver(self, s: str):
+    # check at each character if the substring is a palindrome
+    for index in range(len(s)):
+        # Both of these calls need to be done. The first covers the case where the
+        # mid point is 1 character. This is for odd length substrings (i.e. "aba").
+        # The second covers the case where the mid point is two characters (for
+        # even length substrings i.e. "abba").
+        self.expand_around_center(s, index, index)
+        self.expand_around_center(s, index, index + 1)
+        
+```
+
+#### Examples
+
+* [5. Longest Palindromic Substring](../problems/leetcode/5.-longest-palindromic-substring.md)
+* [647. Palindromic Substrings](../problems/leetcode/647.-palindromic-substrings.md)
 
 ## Reference:
 
