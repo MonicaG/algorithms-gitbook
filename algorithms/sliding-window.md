@@ -50,33 +50,55 @@ Example:
 
 ### Expand around the center
 
-This technique is used for finding palindromes. A way to visualize a palindrome is as a mirror image of itself based on a center point. For example: the string `aba` has a center point `b` and the letters are mirrored around that center point. So, we could set a left and right pointer to the letter `b`. Then we would increment the right pointer, decrement the left pointer compare the letters and so on.&#x20;
+This technique is used for finding palindromes. A way to visualize a palindrome is as a mirror image of itself based on a center point. For example: the string `aba` has a center point `b` and the letters are mirrored around that center point. So, we could set a left and right pointer to the letter `b`. Then we would increment the right pointer, decrement the left pointer and compare the letters. We keep doing this process until a mismatch is found or all letters are read.&#x20;
 
-If there is an even number of letters in the palindrome, then the center point is the two center letters. Example: `abba` the center would be `bb`. In this case the left pointer would be the first `b` and the right pointer would be the second `b`. Other than that the logic is the same.
+If there are an even number of letters in the palindrome, then the center point is the two center letters. Example: `abba` the center would be `bb`.&#x20;
 
-To find an anagram within a string, we need to loop over the string providing the index for the left and right pointers. We need to perform the expand twice, once for the odd size case and once for the even sized case.
-
-#### Code
-
-Template for expand around the center problems:
+#### Code to check if a string is a palindrome
 
 ```python
-def expand_around_center(self, s: str, left: int, right: int):
-    while left >= 0 and right < len(s) and s[left] == s[right]:
+def is_string_a_palindrome(s: str) -> bool:
+    # find the mid point, which is our mirror letter(s)
+    mid = len(s) // 2
+    right = mid
+    # if the string has an even number of characters than the left pointer will be mid - 1 (the first b in the above example)
+    if len(s) % 2 == 0:
+        left = mid - 1
+    else:
+        left = mid
+    # check that the left and right side of the mid point are "mirrors" of each other
+    while left >= 0 and right < len(s):
+        if s[left] != s[right]:
+            return False
         left -= 1
         right += 1
+    return True
+```
+
+To find a palindrome/palindromes within a string, we need to loop over the string and provide the index for the left and right pointers. We need to perform the expand twice, once for the odd size case and once for the even sized case. In this case the left and right pointer assignment is different as the mid point is the current index and not calculated. Here, for even length substrings, the left pointer is the index and the right pointer is index + 1.
+
+#### Code template for substring expand around the center problems :
+
+```python
+class Example:
+    def expand_around_center(self, s: str, left: int, right: int):
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            left -= 1
+            right += 1
                
-def driver(self, s: str):
-    # check at each character if the substring is a palindrome
-    for index in range(len(s)):
-        # Both of these calls need to be done. The first covers the case where the
-        # mid point is 1 character. This is for odd length substrings (i.e. "aba").
-        # The second covers the case where the mid point is two characters (for
-        # even length substrings i.e. "abba").
-        self.expand_around_center(s, index, index)
-        self.expand_around_center(s, index, index + 1)
+    def driver(self, s: str):
+        # check at each character if the substring is a palindrome
+        for index in range(len(s)):
+            # Both of these calls need to be done. The first covers the case where the
+            # mid point is 1 character. This is for odd length substrings (i.e. "aba").
+            # The second covers the case where the mid point is two characters (for
+            # even length substrings i.e. "abba").
+            self.expand_around_center(s, index, index)
+            self.expand_around_center(s, index, index + 1)
         
 ```
+
+This code is O(n^2) as we have the for loop and then the while loop. This is compared to the brute force solution of O(n^3) which requires two loops to form all possible substrings plus the while loop to check if the substring is a palindrome.
 
 #### Examples
 
