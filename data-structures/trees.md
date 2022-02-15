@@ -30,8 +30,19 @@ A binary search tree is a binary tree that has these properties:
 * Each node can have at most one left and one right child
 * The left descendants must only contain values that are less than the node
 * The right descendants must only contain values that are greater than the node
+* Each subtree must be a valid binary search tree.
 
 [![Binary search tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary\_search\_tree.svg/256px-Binary\_search\_tree.svg.png)](https://commons.wikimedia.org/wiki/File:Binary\_search\_tree.svg)
+
+### Deletion rules
+
+* If the node to delete has no children, then just delete it
+* If the node to delete has one child, delete the node, and put the child node where the deleted node was.
+* If the node to delete has two children, then replace it with successor node. The successor node is the node with the least value of the child nodes that are greater than the deleted node.&#x20;
+  * To find the successor node: visit the right child of the deleted node. Traverse down the left branch of all child nodes until a node does not have a left child. That node is the successor node.
+* If the successor node has a right child, then after placing the successor node in its new spot, move the right child to the left side of the successor's former parent
+* Example of finding the successor node:
+  * Suppose we want to delete 3 from the above diagram. We would delete the 3, then move to the right child, 6. We, then traverse down the left branches. In this case, there is only one, 4. Node 4, moves to where node 3 was.&#x20;
 
 ## Trie
 
