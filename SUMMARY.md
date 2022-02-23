@@ -52,4 +52,5 @@
   * [242. Valid Anagram](problems/leetcode/242.-valid-anagram.md)
   * [417. Pacific Atlantic Water Flow](problems/leetcode/417.-pacific-atlantic-water-flow.md)
   * [424. Longest Repeating Character Replacement](problems/leetcode/424.-longest-repeating-character-replacement.md)
+  * [435. Non-overlapping Intervals](problems/leetcode/435.-non-overlapping-intervals.md)
   * [647. Palindromic Substrings](problems/leetcode/647.-palindromic-substrings.md)
