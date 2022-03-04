@@ -26,11 +26,9 @@ Assume the following graph:
 
 ![A visual depiction of the graph](../.gitbook/assets/graph\_example.svg)
 
-### Code
-
 A collections.deque is used to queue the vertices to search. The code is similar to the iterative implementation of the [depth first search ](depth-first-search-dfs.md#iterative)algorithm.&#x20;
 
-#### Traversal
+### Traversal
 
 ```python
 def bfs_traversal(graph: Dict, start: str) -> List[str]:
@@ -52,7 +50,7 @@ def bfs_traversal(graph: Dict, start: str) -> List[str]:
 
 ```
 
-#### Search
+### Search
 
 ```python
 def bfs(graph: Dict, start: str, target: str) -> bool:
@@ -74,6 +72,35 @@ def bfs(graph: Dict, start: str, target: str) -> bool:
                 queue.append(vertex)
     return False
 
+```
+
+## Tree
+
+### Traversal
+
+Traversal of a tree is similar to a graph except the visited collection is not needed. This is because a tree does not have cycles in it. So, we do not need to keep track of the nodes we have already visited.
+
+```python
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
+def bfs_traversal(root: TreeNode) -> List[int]:
+    if not root:
+        return []
+    queue = deque()
+    queue.append(root)
+    result = []
+    while queue:
+        node = queue.popleft()
+        if node:
+            result.append(node.val)
+            queue.append(node.left)
+            queue.append(node.right)
+    return result
 ```
 
 ## Resources

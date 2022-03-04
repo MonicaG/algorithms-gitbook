@@ -50,6 +50,7 @@
   * [226. Invert Binary Tree](problems/leetcode/226.-invert-binary-tree.md)
   * [238. Product of Array Except Self](problems/leetcode/238.-product-of-array-except-self.md)
   * [242. Valid Anagram](problems/leetcode/242.-valid-anagram.md)
+  * [297. Serialize and Deserialize Binary Tree](problems/leetcode/297.-serialize-and-deserialize-binary-tree.md)
   * [417. Pacific Atlantic Water Flow](problems/leetcode/417.-pacific-atlantic-water-flow.md)
   * [424. Longest Repeating Character Replacement](problems/leetcode/424.-longest-repeating-character-replacement.md)
   * [435. Non-overlapping Intervals](problems/leetcode/435.-non-overlapping-intervals.md)
