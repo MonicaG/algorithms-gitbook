@@ -44,6 +44,103 @@ A binary search tree is a binary tree that has these properties:
 * Example of finding the successor node:
   * Suppose we want to delete 3 from the above diagram. We would delete the 3, then move to the right child, 6. We, then traverse down the left branches. In this case, there is only one, 4. Node 4, moves to where node 3 was.&#x20;
 
+## Tree Traversal
+
+Four ways to traverse a tree are:
+
+* Preorder
+* Inorder
+* Postorder
+* Level order&#x20;
+
+The first 3 traversals (preorder, inorder and postorder) use[ Depth First Search](../algorithms/depth-first-search-dfs.md) to traverse the tree. Where the node is processed in relation to traversing the children determines the type of traversal. Level order traversal uses [Breadth First Search ](../algorithms/breadth-first-search-bfs.md#traversal-1)to traverse the tree.
+
+### Preorder
+
+The tree is traversed in the order: Node -> Left -> Right
+
+Using the above [binary search tree](trees.md#binary-search-trees) structure, the result of a preorder traversal would be:
+
+```
+8, 3, 1, 6, 4, 7, 10, 14, 13
+```
+
+```python
+def preorder(tree: TreeNode):
+    if node is None:
+        return
+    print(node.value)
+    preorder(node.left)
+    preorder(node.right)
+
+```
+
+### Inorder
+
+The tree is traversed in the order: Left -> Node -> Right
+
+Using the above [binary search tree](trees.md#binary-search-trees) structure, the result of an inorder traversal would be:
+
+```
+1, 3, 4, 6, 7, 8, 10, 13, 14
+```
+
+Using inorder traversal on a binary search tree will traverse the nodes in ascending order.
+
+```python
+def inorder(tree: TreeNode):
+    if node is None:
+        return
+    inorder(node.left)
+    print(node.value)
+    inorder(node.right)
+    
+```
+
+### Postorder
+
+The tree is traversed in the order: Left -> Right -> Node
+
+Using the above [binary search tree](trees.md#binary-search-trees) structure, the result of an inorder traversal would be:
+
+```
+1, 4, 7, 6, 3, 13, 14, 10, 8
+```
+
+```python
+def postorder(tree: TreeNode):
+    if node is None:
+        return
+    postorder(node.left)
+    postorder(node.right)
+    print(node.value)
+    
+```
+
+### Level-order
+
+The tree is traversed level by level: Level 0 -> Level 1 -> Level 2 etc
+
+Using the above [binary search tree](trees.md#binary-search-trees) structure, the result of a level traversal would be:
+
+```
+8, 3, 10, 1, 6, 14, 4, 7, 13
+```
+
+```python
+def level_order(tree: TreeNode) -> List:
+    queue = deque()
+    result = []
+    queue.append(tree)
+    while queue:
+        node = queue.popleft()
+        if node:
+            result.append(node.value)
+            queue.append(node.left)
+            queue.append(node.right)
+    return result
+```
+
 ## Trie
 
 * A kind of tree that is good for text-based features such as autocomplete
