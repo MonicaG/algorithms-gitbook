@@ -40,6 +40,7 @@
   * [56. Merge Intervals](problems/leetcode/56.-merge-intervals.md)
   * [76. Minimum Window Substring](problems/leetcode/76.-minimum-window-substring.md)
   * [98. Validate Binary Search Tree](problems/leetcode/98.-validate-binary-search-tree.md)
+  * [105. Construct Binary Tree from Preorder and Inorder Traversal](problems/leetcode/105.-construct-binary-tree-from-preorder-and-inorder-traversal.md)
   * [121. Best Time to Buy and Sell Stock](problems/leetcode/121.-best-time-to-buy-and-sell-stock.md)
   * [141. Linked List Cycle](problems/leetcode/141.-linked-list-cycle.md)
   * [152. Maximum Product Subarray](problems/leetcode/152.-maximum-product-subarray.md)

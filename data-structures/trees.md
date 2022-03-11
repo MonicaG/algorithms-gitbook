@@ -65,6 +65,8 @@ Using the above [binary search tree](trees.md#binary-search-trees) structure, th
 8, 3, 1, 6, 4, 7, 10, 14, 13
 ```
 
+Using preorder traversal means the root node will be processed first.
+
 ```python
 def preorder(tree: TreeNode):
     if node is None:
@@ -106,6 +108,8 @@ Using the above [binary search tree](trees.md#binary-search-trees) structure, th
 ```
 1, 4, 7, 6, 3, 13, 14, 10, 8
 ```
+
+Using postorder traversal means the root node will be processed last.
 
 ```python
 def postorder(tree: TreeNode):
