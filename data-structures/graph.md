@@ -44,6 +44,14 @@ The following directed graph is a DAG, because it contains no cycles. Following 
 
 <figure><img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Tred-G.svg" alt=""><figcaption><p>Vector version of Image:Tred-G.png, Public domain, via Wikimedia Commons</p></figcaption></figure>
 
+Some application areas of DAGs:
+
+* Routing in computer networks
+* Job scheduling
+* Data processing
+* Genealogy
+* Citation graphs
+
 ### Weighted Graph
 
 A number (weight) is assigned to each edge. These numbers could represents things such as distance, or costs, or whatever is appropriate for the problem. Weighted graphs are used in shortest path problems such as the traveling salesman problem.
