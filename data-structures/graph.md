@@ -30,6 +30,20 @@ The edges indicate the direction of the relationship.&#x20;
 
 ![A connected, directed graph. Attribution: https://commons.wikimedia.org/wiki/File:Directed.svg](https://upload.wikimedia.org/wikipedia/commons/a/a2/Directed.svg)
 
+### Directed Acyclic Graph (DAG)
+
+If we follow the direction of the edges and do not find any loops, then there are no directed cycles. The graph formed is a directed acyclic graph.
+
+A DAG is always topologically ordered. This means that for each edge in the graph, the start vertex of the edge occurs earlier in the sequence than the ending vertex of the edge.
+
+The  graph in the [directed graph](graph.md#directed-graph) section above is NOT a DAG, because it contains a cycle (a loop). Starting at any node, _n_, and following the edges will always bring us back to _n_.
+
+The following directed graph is a DAG, because it contains no cycles. Following the path from any node, _n_, will never lead back to _n_.&#x20;
+
+
+
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Tred-G.svg" alt=""><figcaption><p>Vector version of Image:Tred-G.png, Public domain, via Wikimedia Commons</p></figcaption></figure>
+
 ### Weighted Graph
 
 A number (weight) is assigned to each edge. These numbers could represents things such as distance, or costs, or whatever is appropriate for the problem. Weighted graphs are used in shortest path problems such as the traveling salesman problem.
