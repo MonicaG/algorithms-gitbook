@@ -49,6 +49,7 @@
   * [153. Find Minimum in Rotated Sorted Array](problems/leetcode/153.-find-minimum-in-rotated-sorted-array.md)
   * [200. Number of Islands](problems/leetcode/200.-number-of-islands.md)
   * [206. Reverse Linked List](problems/leetcode/206.-reverse-linked-list.md)
+  * [207. Course Schedule](problems/leetcode/207.-course-schedule.md)
   * [217. Contains Duplicate](problems/leetcode/217.-contains-duplicate.md)
   * [226. Invert Binary Tree](problems/leetcode/226.-invert-binary-tree.md)
   * [238. Product of Array Except Self](problems/leetcode/238.-product-of-array-except-self.md)
