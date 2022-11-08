@@ -62,6 +62,6 @@ See [collections.deque](https://docs.python.org/3/library/collections.html#colle
 ## References
 
 * [https://en.wikipedia.org/wiki/Linked\_list](https://en.wikipedia.org/wiki/Linked\_list)
-* [Cracking the coding interview](https://www.crackingthecodinginterview.com) - Chapter 2
+* [Cracking the coding interview](https://www.crackingthecodinginterview.com/) - Chapter 2
 * [A Common-Sense Guide to Data Structures and Algorithms, Second Edition](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) - Chapter 14.
 * [Time Complexity in Python](https://wiki.python.org/moin/TimeComplexity)

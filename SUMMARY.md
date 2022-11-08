@@ -13,6 +13,7 @@
 * [Depth First Search (DFS)](algorithms/depth-first-search-dfs.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Kadane's Algorithm](algorithms/kadanes-algorithm.md)
+* [Kahn's Algorithm](algorithms/kahns-algorithm.md)
 * [Quickselect](algorithms/quickselect.md)
 * [Recursion](algorithms/recursion.md)
 * [Sorting Algorithms](algorithms/sorting-algorithms.md)
