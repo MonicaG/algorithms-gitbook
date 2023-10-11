@@ -39,6 +39,7 @@
   * [33. Search in Rotated Sorted Array](problems/leetcode/33.-search-in-rotated-sorted-array.md)
   * [49. Group Anagrams](problems/leetcode/49.-group-anagrams.md)
   * [53. Maximum Subarray](problems/leetcode/53.-maximum-subarray.md)
+  * [55. Jump Game](problems/leetcode/55.-jump-game.md)
   * [56. Merge Intervals](problems/leetcode/56.-merge-intervals.md)
   * [76. Minimum Window Substring](problems/leetcode/76.-minimum-window-substring.md)
   * [98. Validate Binary Search Tree](problems/leetcode/98.-validate-binary-search-tree.md)
